@@ -39,9 +39,11 @@ public class Task1Page {
         selectAll.click();
     }
 
-    public void setDoubleClickUsername(){
+    /*public void setDoubleClickUsername(){
         doubleClickUsername.click();
     }
+
+     */
 
 
 

@@ -51,8 +51,16 @@ public class US2_Steps {
 
       // boolean allChecked = true;
         List<WebElement> checkboxes = task1Page.isClickedAll;
-
         for (WebElement checkbox : checkboxes) {
+            //checkbox.click();
+
+            if (checkbox.isSelected()) {
+                System.out.println("Checkboxes are clicked");
+            } else
+                System.out.println("Checkboxes are not clicked");
+
+
+            // for (WebElement checkbox : checkboxes) {
             //System.out.println("CheckBoxes are selected "+ checkbox.getText());
             //Assert.assertTrue(checkbox.isSelected());
         }
